@@ -1,0 +1,24 @@
+{
+  "name": "smbc_d3",
+  "version": "1.0.0",
+  "description": "A simple visualization of text sourced/scraped from smbc-comics.com",
+  "main": "script.js",
+  "dependencies": {
+    "d3": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node script.js in.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kelvin-Lee/smbc_D3.git"
+  },
+  "author": "Kelvin Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kelvin-Lee/smbc_D3/issues"
+  },
+  "homepage": "https://github.com/Kelvin-Lee/smbc_D3#readme"
+}
