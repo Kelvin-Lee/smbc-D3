@@ -4,7 +4,8 @@
   "description": "A simple visualization of text sourced/scraped from smbc-comics.com",
   "main": "script.js",
   "dependencies": {
-    "d3": "^4.1.1"
+    "d3": "^4.1.1",
+    "jsdom": "^9.4.1"
   },
   "devDependencies": {},
   "scripts": {
