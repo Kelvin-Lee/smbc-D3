@@ -1,4 +1,4 @@
-# smbc DR
+# smbc D3
 A simple visualization of text [sourced/scraped](https://github.com/Kelvin-Lee/smbc-with-casperjs) from smbc-comics.com using D3.js
 
 ## Notes
