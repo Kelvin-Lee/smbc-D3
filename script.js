@@ -1,5 +1,8 @@
 var rl = require('readline');
 var fs = require('fs');
+var d3 = require('d3');
+
+document = require('jsdom').jsdom();
 
 var lineReader = rl.createInterface({
   "input": fs.createReadStream(process.argv[2])
@@ -20,6 +23,16 @@ lineReader.on('line', function(line){
 });
 
 lineReader.on('close', function(){
-  console.log(set);
-});
 
+  d3.select("body").append("svg")
+    .attr("xmlns", 'http://www.w3.org/2000/svg')
+    .attr("width", 500)
+    .attr("height", 900)
+      .append("circle")
+        .attr("stroke", 'green') 
+        .attr("fill", 'white') 
+        .attr("stroke-width", 5) ;
+
+  console.log(d3.select("body").html());
+
+})
